@@ -451,8 +451,9 @@ main h2{
 
 @media screen and (min-width:500px) and (max-width: 990px){
     header .barra{
-        position: initial;
-        margin-top: unset;
+        top: 0;
+        width: 85%;
+        margin-top: initial;
     }
     
     header .barra ul{
@@ -534,7 +535,7 @@ main h2{
     }
     #redesSociales .gato{
         top: 350px;
-        left: 350px;
+        left: 301px;
     }
 
     #redesSociales .redes h2{
