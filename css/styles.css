@@ -192,6 +192,11 @@ main h2{
     top: 320px;
 }
 
+#habilidades .ts{
+    width: 40%;
+    border-radius: 20px;
+}
+
 .disco{
     animation: rotar 10s linear infinite;
 }
@@ -323,6 +328,7 @@ main h2{
 
 .angel{
     animation: flotar 9s linear infinite;
+    z-index: -1;
 }
 
 @keyframes flotar {
