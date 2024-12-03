@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -473,7 +474,7 @@ main h2{
 @media screen and (min-width:500px) and (max-width: 990px){
     header .barra{
         top: 0;
-        width: 85%;
+        width: 90%;
         margin-top: initial;
     }
     
@@ -488,7 +489,7 @@ main h2{
     section .estrella-R{
         width: 250px;
         height: 270px;
-        left: 490px;
+        left: 450px;
     }
     .cuadrado{
         margin-top: 540px;
@@ -519,7 +520,7 @@ main h2{
         margin-top: 1200px;
         width: 300px;
         height: 400px;
-        left: 350px;
+        left: 250px;
     }
     #redesSociales .gato{
         margin: auto;
@@ -568,4 +569,179 @@ main h2{
     }
 }
 
+@media screen and (min-width:400px) and (max-width: 430px){
+    header .barra{
+        top: 0;
+        width: 80%;
+        margin-top: initial;
+    }
+    
+    header .barra ul{
+        display: block;
+    }
+    header h2{
+        padding: 20px 0 10px 0;
+    }
+
+    .presentacion ul li{
+        font-size: 45px;
+        line-height: 38px;
+    }
+
+    section .estrella-R{
+        width: 170px;
+        height: 200px;
+        left: 220px;
+        margin-top: 20px;
+    }
+    .presentacion .nicolas{
+        width: 50%;
+        height: 26%;
+        margin-left: 100px;
+        top: 160px;
+    }
+
+    .cuadrado{
+        width: 308px;
+        height: 276px;
+        margin-top: 200px;
+        margin-left: 50px;
+        margin-bottom: 300px;
+    }
+    .cuadrado h4{
+        font-size: 35px;
+        padding: 30px 0 0 0;
+        margin: initial;
+    }
+
+    .cuadrado p{
+        text-align: justify;
+    }
+
+    .presentacion .oso{
+        margin-top: 350px;
+        margin-left: 100px;
+        width: 230px;
+        height: 352px;
+    }
+
+    main{
+        margin-top: 100px;
+    }
+
+    #habilidades article{
+        width: 400px;
+    }
+    #habilidades article.lenguajes{
+        padding: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    #habilidades article.lenguajes2{
+        margin-bottom: initial;
+        width: 200px;
+        width: 300px;
+        height: 300px;
+    }
+
+    #habilidades .disco{
+        top: 1700px;
+        width: 250px;
+        height: 350px;
+        left: 100px;
+    }
+    #redesSociales .gato{
+        margin: auto;
+    }
+    #portafolio{
+        margin-top: 300px;
+    }
+
+    #portafolio article:nth-child(1){
+        padding: initial;
+        margin: 50px 0;
+    }
+    #portafolio .labgestor{
+        margin: auto;
+    }
+
+    #portafolio article:nth-child(2){
+        padding: initial;
+    }
+    #portafolio .logoestudiante{
+        margin: 20px auto;
+    }
+
+    #portafolio article p {
+        width: 370px;
+        margin: auto;
+    }
+
+    #portafolio .rei{
+        display: none;
+    }
+
+    #portafolio .spider{
+        display: none;
+    }
+
+    #estudiosExperiencia article:nth-child(1){
+        padding: 0 50px;
+    }
+
+    #estudiosExperiencia article:nth-child(2){
+        padding: 0 50px;
+        margin-bottom: 300px;
+    }
+    #estudiosExperiencia .angel{
+        width: 50%;
+        left: 100px;
+        top: 500px;
+    }
+
+    .imgredes{
+        width: 100px;
+    }
+
+    #redesSociales .estrellas2{
+        width: 100px;
+    }
+
+    #hobbies .estrellas2{
+        width: 150px;
+    }
+    #redesSociales{
+        margin-top: -200px;
+    }
+    #redesSociales .gato{
+        display: none;
+    }
+
+    #redesSociales .redes h2{
+        font-size: 35px;
+    }
+
+    #hobbies article img{
+        margin: auto;
+    }
+
+    #hobbies article{
+        margin: 20px 0;
+    }
+
+    #hobbies .audifonos{
+        width: 200px;
+        height: 200px;
+    }
+
+    #hobbies .BMO{
+        width: 200px;
+        height: 200px;
+    }
+    #hobbies .saitama{
+        width: 200px;
+        height: 200px;
+    }
+}
 
